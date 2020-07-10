@@ -1,5 +1,5 @@
 <div align="center">
-  <img alt="Logo" src="https://raw.githubusercontent.com/bchiang7/v4/master/src/images/favicon-32x32.png" width="100" />
+  <img alt="Logo" src="https://user-images.githubusercontent.com/11186378/87174448-e6507f80-c2f6-11ea-92d9-176419c4f3d8.png" width="100" />
 </div>
 <h1 align="center">
   Sushant Chitrakar - v1
