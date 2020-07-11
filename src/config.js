@@ -1,10 +1,10 @@
 module.exports = {
-    siteTitle: 'Sushant Chitrakar | Frontend Developer',
+  siteTitle: 'Sushant Chitrakar | Frontend Developer',
   siteDescription:
     'Sushant Chitrakar is a Kathmandu based Frontend Developer with a keen eye on both design as well as development of interactive and visual web apps.',
   siteKeywords:
     'Sushant Chitrakar, Sushant, Chitrakar, Sushant11, frontend, frontend-developer, frontend-engineer, software engineer, front-end engineer, web developer, javascript, northeastern',
-//   siteUrl: 'https://sushantchitrakar.com.np',
+    siteUrl: 'https://sushantchitrakar.com.np',
   siteLanguage: 'en_US',
   name: 'Sushant Chitrakar',
   location: 'Kathmandu, NPL',
@@ -48,8 +48,8 @@ module.exports = {
   navHeight: 100,
 
   colors: {
-    softWhite: '#F9F9F9', 
-    softDark: '#252525      ',
+    softWhite: '#F9F9F9',
+    softDark: '#252525',
     darkGrey: '#363636',
   },
 }
