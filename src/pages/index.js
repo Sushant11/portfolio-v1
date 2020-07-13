@@ -1,17 +1,25 @@
 import React from "react"
-
+import { graphql } from 'gatsby';
+import PropTypes from 'prop-types';
+import styled from 'styled-components';
 import Layout from "../components/layout"
-import SEO from "../components/seo"
+import { Main } from '../styles/Main';
 
-const IndexPage = () => (
-  <Layout>
-    <SEO title="Home" />
-    <h1>Hi! I'm building a fake Gatsby site as part of a tutorial,Super Nice!</h1>
-      <p>
-        What do I like to do? Lots of course but definitely enjoy building
-        websites.
-      </p>
+// const StyledMainContainer = styled(Main)`
+//   counter-reset: section;
+// `;
+
+const IndexPage = (location,data) => (
+  <Layout location={location}>
+    {/* <StyledMainContainer className="fillHeight"> */}
+    Main
+      {/* </StyledMainContainer> */}
   </Layout>
 )
+
+IndexPage.propTypes = {
+  location: PropTypes.object.isRequired,
+  data: PropTypes.object.isRequired,
+};
 
 export default IndexPage

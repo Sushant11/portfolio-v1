@@ -1,9 +1,11 @@
 import {createGlobalStyle} from 'styled-components'
 import FontFaces from './fonts'
 import theme from './theme'
+import media from './media';
+import mixins from './mixins';
 const {colors, fontSizes, fonts}= theme
 
-const GlobalStyles = createGlobalStyle `
+const GlobalStyle = createGlobalStyle `
 ${FontFaces};
 
 html {
@@ -43,14 +45,15 @@ html {
     }
   }
   ::selection {
-    background-color: ${colors.slate};
-    color: ${colors.lightestSlate};
+    background-color: ${colors.bg};
+    color: ${colors.black};
   }
   #root {
     min-height: 100vh;
     display: grid;
     grid-template-rows: 1fr auto;
     grid-template-columns: 100%;
+    color:${colors.black}
   }
   h1,
   h2,
@@ -139,7 +142,7 @@ html {
     }
     & > code {
       background-color: ${colors.darkGrey};
-      color: ${colors.white};
+      color: ${colors.black};
       font-size: ${fontSizes.sm};
       border-radius: ${theme.borderRadius};
       padding: 0.3em 0.5em;

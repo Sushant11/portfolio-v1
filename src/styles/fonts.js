@@ -5,7 +5,7 @@ import RobotoLightItalicTTF from '../assets/fonts/Roboto-LightItalic.ttf';
 import RobotoRegularTTF from '../assets/fonts/Roboto-Regular.ttf';
 import RobotoMediumTTF from '../assets/fonts/Roboto-Medium.ttf';
 import RobotoMediumItalicTTF from '../assets/fonts/Roboto-MediumItalic.ttf';
-import RobotoBoldTTF from '../assets/fonts/Roboto-RobotBoldItalicTTF.ttf';
+import RobotoBoldTTF from '../assets/fonts/Roboto-BoldItalic.ttf';
 import RobotBoldItalicTTF from '../assets/fonts/Roboto-BoldItalic.ttf';
 import RobotoBlackTTF from '../assets/fonts/Roboto-Black.ttf';
 import RobotoBlackItalicTTF from '../assets/fonts/Roboto-BlackItalic.ttf';

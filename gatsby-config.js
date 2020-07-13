@@ -24,7 +24,7 @@ module.exports = {
         background_color: config.colors.softWhite,
         theme_color: config.colors.softDark,
         display: `minimal-ui`,
-        icon: `src/images/favicons/icon-72x72.png`, // This path is relative to the root of the site.
+        icon: `src/images/favicons/icon-512x512.png`, // This path is relative to the root of the site.
       },
     },
     {
