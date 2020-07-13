@@ -10,7 +10,7 @@ import { Main } from '../styles/Main';
 // `;
 
 const IndexPage = (location,data) => (
-  <Layout location={location}>
+  <Layout location={location.location}>
     {/* <StyledMainContainer className="fillHeight"> */}
     Main
       {/* </StyledMainContainer> */}

@@ -49,7 +49,7 @@ const StyledContent = styled.div`
 `;
 
 const Layout = ({ children, location }) => {
-  const isHome = location.location.pathname === '/';
+  const isHome = location.pathname === '/';
 
   const data = useStaticQuery(graphql`
     query LayoutQuery {
